@@ -25,25 +25,25 @@ output database_name {
 }
 
 output demo_app_grpc_username {
-  value = "${google_sql_user.user_demo_app_grpc.name}"
+  value = "${google_sql_user.demo_app_grpc.name}"
 }
 
 output demo_app_grpc_password {
-  value = "${google_sql_user.user_demo_app_grpc.password}"
+  value = "${google_sql_user.demo_app_grpc.password}"
 }
 
 output demo_app_grpc_instance {
-  value = "${google_sql_user.user_demo_app_grpc.instance}"
+  value = "${google_sql_user.demo_app_grpc.instance}"
 }
 
 output adminer_username {
-  value = "${google_sql_user.user_adminer.name}"
+  value = "${google_sql_user.adminer.name}"
 }
 
 output adminer_password {
-  value = "${google_sql_user.user_adminer.password}"
+  value = "${google_sql_user.adminer.password}"
 }
 
 output adminer_instance {
-  value = "${google_sql_user.user_adminer.instance}"
+  value = "${google_sql_user.adminer.instance}"
 }
